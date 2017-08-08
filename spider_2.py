@@ -79,8 +79,8 @@ dic = dict(zip(keywords_1, keywords_2))
 count = 0
 
 # set mysql
-conn = pymysql.connect(host='47.93.32.130', unix_socket='/tmp/mysql.sock',
-                       user='ant', passwd='Qljl1rh!', db='mysql', charset='utf8')
+conn = pymysql.connect(host='xxx', unix_socket='/tmp/mysql.sock',
+                       user='xxx', passwd='xxx', db='mysql', charset='utf8')
 cur = conn.cursor()
 cur.execute("USE taobao;")
 
