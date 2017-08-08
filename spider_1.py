@@ -15,8 +15,8 @@ from selenium.webdriver.support import expected_conditions as EC
 
 
 # mysql
-# conn = pymysql.connect(host='106.14.196.40', unix_socket='/tmp/mysql.sock',
-#                        user='root', passwd='mysqlroot', db='mysql', charset='utf8')
+# conn = pymysql.connect(host='xxx', unix_socket='/tmp/mysql.sock',
+#                        user='xxx', passwd='xxx', db='mysql', charset='utf8')
 # cur = conn.cursor()
 # cur.execute("USE taobao;")
 
