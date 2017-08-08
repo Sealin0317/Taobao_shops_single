@@ -202,8 +202,8 @@ def get_info(k1, k2, location, html, store_number):
                     rate = '100'
                 sales = doc('#list-container li .info-sale em').eq(i).text()
                 amount = doc('#list-container li .info-sum em').eq(i).text()
-                # save_to_mysql(k1, k2, title, location, rank, rate, sales, amount)
-                print(k1, k2, title, location, rank, rate, sales, amount)
+                save_to_mysql(k1, k2, title, location, rank, rate, sales, amount)
+                # print(k1, k2, title, location, rank, rate, sales, amount)
         else:
             for i in range(0, 20):
                 print('count~~~~~~~~~~~store_number:', i)
