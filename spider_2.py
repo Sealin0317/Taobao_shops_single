@@ -217,8 +217,8 @@ def get_info(k1, k2, location, html, store_number):
                 sales = doc('#list-container li .info-sale em').eq(i).text()
                 amount = doc('#list-container li .info-sum em').eq(i).text()
                 if title:
-                    # save_to_mysql(k1, k2, title, location, rank, rate, sales, amount)
-                    print(k1, k2, title, location, rank, rate, sales, amount)
+                    save_to_mysql(k1, k2, title, location, rank, rate, sales, amount)
+                    # print(k1, k2, title, location, rank, rate, sales, amount)
                 else:
                     pass
             # print(k1, k2, title, location, rank, rate, sales, amount)
