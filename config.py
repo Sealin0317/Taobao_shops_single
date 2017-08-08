@@ -26,7 +26,7 @@ user_agent_list = [
 SERVICE_ARGS = ['--load-images=false', '--disk-cache=true']
 
 # set mongo database parameters
-# MONGO_URL = 'mongodb://sealin:kU3&M*zXpbQI28a6@106.14.196.40:27017/'
+# MONGO_URL = 'mongodb://xxx:xxx@xxxx/'
 # MONGO_URL = 'localhost'
 # MONGO_DB = 'TAOBAO'
 # MONGO_TABLE1 = 't3'
